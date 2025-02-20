@@ -101,3 +101,66 @@ body{
 .hero-text button:hover{
     background-color:#1f54a8;
 }
+
+
+
+
+/* Selection Section*/
+
+
+.selection{
+    padding: 4vh 0;
+}
+
+
+.selection-header{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+.selection-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.box{
+    width: 22vh;
+    height: 22vh;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.box:nth-child(1){
+    background-image: url(images/wind.jpg);
+}
+
+.box:nth-child(2){
+    background-image: url(images/wind.jpg);
+}
+
+.box:nth-child(3){
+    background-image: url(images/wind.jpg);
+}
+
+.box:nth-child(4){
+    background-image: url(images/wind.jpg);
+}
+
+
