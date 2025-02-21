@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roberto';
 }
 
 
@@ -80,7 +81,7 @@ body{
 .hero-text p{
     font-size: 18px;
     color: #E5E7EB;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 
@@ -184,3 +185,71 @@ body{
     width: 55vw;
     line-height: 2;
 }
+
+
+
+
+/* Sign-Up Section */
+
+
+.signup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8vh 0;
+}
+
+.signup-section-box{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60vw;
+    padding: 36px 16px;
+    gap: 16px;
+    border-radius: 10px;
+}
+
+
+
+.signup-section-box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+
+.signup-section-box h3, p{
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.signup-section-box h3{
+    font-size: 24px;
+}
+
+
+.signup-section-box-button button{
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 6px 24px;
+}
+
+
+.signup-section-box-button button:hover{
+    background-color:#1f54a8;
+}
+
+
+.signup-section-box-button a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* Footer Section */
